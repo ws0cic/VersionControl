@@ -124,7 +124,7 @@
     <value>Törlés</value>
   </data>
   <data name="FullName" xml:space="preserve">
-    <value>Utónév</value>
+    <value>Teljes név</value>
   </data>
   <data name="WriteToFile" xml:space="preserve">
     <value>Vezetéknév</value>
