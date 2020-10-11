@@ -21,6 +21,9 @@ namespace week4_work
         public Form1()
         {
             InitializeComponent();
+
+            button1.Text = Resource1.GenerateButtonName;
+
             LoadData();
         }
         private void LoadData()
