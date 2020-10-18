@@ -8,8 +8,13 @@ namespace week05
 {
     class Program
     {
+        PortfolioEntities context = new PortfolioEntities();
+        List<Tick> Ticks;
         static void Main(string[] args)
         {
+            InitializeComponent();
+            Ticks = context.Ticks.ToList();
+            dataGridView1.DataSource = Ticks;
         }
     }
 }
