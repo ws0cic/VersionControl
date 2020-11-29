@@ -23,6 +23,9 @@ namespace UnitTestExample.Services
                 throw new ApplicationException(
                     "Már létezik felhasználó ilyen e-mail címmel!");
 
+            if (account.ID == Guid.Empty)
+                account.ID = Guid.NewGuid();
+
             Accounts.Add(account);
 
             return account;
